@@ -54,6 +54,14 @@ Character classes distinguishes the different kinds of characters. For example, 
 
 ### Flags
 
+Flags are an optional paramter that can be used in regex that modifies the behavior of searching. It changes the default searching behavior of a regex by making it search in a different way. In this case for our matching email regex we are not using a flag. However, flags can be denoted by using a single lowercase alphabetical letter. It can come before the initial '/' or after the ending '/'. 
+
+Here are some examples of flags that can be used:
+
+g = which stands for global search
+i = which stands for a case sensitive search
+m = which stands for a multi-line search
+
 ### Grouping and Capturing
 
 ### Bracket Expressions
