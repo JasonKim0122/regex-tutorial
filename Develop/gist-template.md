@@ -34,9 +34,11 @@ What are anchors? Anchors are components within a regex that begins the regular 
 
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
-Notice that the anchors in this regex are the ^ and the $. By breaking it down only in just the beggining portion and the end portion. This regex is searching for something that starts with ^([a-z0-9_\.-]+) this component and must end with this ([a-z\.]{2,6})$ component. For now just remember that the start of a regex beings with ^ and ends with $. We will discuss more about the certain components in between the anchors further in depth in this tutorial. 
+Notice that the anchors in this regex are the '^' and the '$'. By breaking it down only in just the beggining portion and the end portion. This regex is searching for something that starts with ^([a-z0-9_\.-]+) this component and must end with this ([a-z\.]{2,6})$ component. For now just remember that the start of a regex beings with '^' and ends with '$'. We will discuss more about the certain components in between the anchors further in depth in this tutorial. 
 
 ### Quantifiers
+
+What is a quantifier? A quantifier in a regex is a component used to determine how many times a certain characters or even groups of characters need to be included or present in order for it to be counted as a valid regex. A quantifier is recoginized as a '+'. Using our regex from earlier, ([a-z0-9_\.-]+), this is an example of a group of characters using a quantifier. Notice how a-z,0-9, _ , . , and - are used for this grouping. It is considered a grouping as these characters are bounded within '[]'. The quantifer is basically stating that at least one of these characters have to be included in the beggining portion of this regex to be counted as a valid expression. 
 
 ### OR Operator
 
