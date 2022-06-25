@@ -1,10 +1,16 @@
-# Title (replace with your title)
+# What is Regex about?
 
-Introductory paragraph (replace this with your text)
+Regex is a shorthand notation that stands for regular expression.
+It is a special text string used by developers to describe a search pattern
+when included in coding or algorithms. It typically is used when one is trying
+to match a certain character combination within a string. Which is very helpful for pulling out information from the body that is needed in our code. This tutorial will help you understand regex and how to use it!
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+
+The following code above is an example of how the components within a regex can be used.
+In this case, it will be used for matching emails. The components within this regex will be used to validate that an email is correctly formatted by having the necessary components of an email. 
 
 ## Table of Contents
 
