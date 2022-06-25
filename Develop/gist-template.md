@@ -38,7 +38,7 @@ Notice that the anchors in this regex are the '^' and the '$'. By breaking it do
 
 ### Quantifiers
 
-What is a quantifier? A quantifier in a regex is a component used to determine how many times a certain characters or even groups of characters need to be included or present in order for it to be counted as a valid regex. A quantifier is recoginized as a '+'. Using our regex from earlier, ([a-z0-9_\.-]+), this is an example of a group of characters using a quantifier. Notice how a-z,0-9, _ , . , and - are used for this grouping. It is considered a grouping as these characters are bounded within '[]'. The quantifer is basically stating that at least one of these characters have to be included in the beggining portion of this regex to be counted as a valid expression. 
+What is a quantifier? A quantifier in a regex is a component used to determine how many times a certain characters or even groups of characters need to be included or present in order for it to be counted as a valid regex. A quantifier is recoginized as a '+'. Using our regex from earlier, ([a-z0-9_\.-]+), this is an example of a group of characters using a quantifier. Notice how a-z,0-9, _ , . , and - are used for this grouping. It is considered a grouping as these characters are bounded within '()'. The quantifer is basically stating that at least one of these characters have to be included in the beggining portion of this regex to be counted as a valid expression. 
 
 ### OR Operator
 
@@ -49,6 +49,8 @@ What is a OR Operator? A OR Operator is defined within a regex by a ' | '. It al
 This is an example of a Hex value and the OR Operator is being used therefore it means that the expression logic wants the search to find either hex codes that are 6 or 3 letters or digits. 
 
 ### Character Classes
+
+Character classes distinguishes the different kinds of characters. For example, it can be used to distinguish between letters and digits. In our email regex the '\d' is the character class used. Since 'a-z' follows '\d' it represents that following an '@' in our email the next character has to be a letter. It can not be a special symbol or a digit otherwise it will not satisfy the regex. 
 
 ### Flags
 
