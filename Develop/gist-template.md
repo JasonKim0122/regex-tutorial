@@ -69,13 +69,11 @@ We can see that there are 3 parts to this regex. Which are separated by the grou
 
 ### Bracket Expressions
 
+Bracket Expression allows a regex to match certain characters within a range. For example, '[a-z] or [0-9]', this means that the expression will search for any alphabetical characters from a through z in the first bracket. In the second bracket it allows the regex to search any digit from 0 through 9.
+
 ### Greedy and Lazy Match
 
 ### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 
