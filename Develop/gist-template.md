@@ -30,6 +30,12 @@ In this case, it will be used for matching emails. The components within this re
 
 ### Anchors
 
+What are anchors? Anchors are components within a regex that begins the regular expression and ends the expression. Take for example the matching email regex below:
+
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+
+Notice that the anchors in this regex are the ^ and the $. By breaking it down only in just the beggining portion and the end portion. This regex is searching for something that starts with ^([a-z0-9_\.-]+) this component and must end with this ([a-z\.]{2,6})$ component. For now just remember that the start of a regex beings with ^ and ends with $. We will discuss more about the certain components in between the anchors further in depth in this tutorial. 
+
 ### Quantifiers
 
 ### OR Operator
