@@ -16,3 +16,5 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 
 # DESCRIPTION
 * A regex is short for regular expression. It is a sequence of characters that defines a specific search patterns when included in code or search algorithms. This tutorial is used to help understand the different components within a regex. It will break down each component and give examples to better understand it. 
+
+* Link: https://github.com/JasonKim0122/regex-tutorial/blob/main/Develop/gist-template.md
