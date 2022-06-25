@@ -73,8 +73,9 @@ Bracket Expression allows a regex to match certain characters within a range. Fo
 
 ### Greedy and Lazy Match
 
-### Boundaries
+In our email regex there isn't a greedy and lazy match. However, in other instances a greedy match will try to match as much as possible while a lazy match will try to match as little as possible. 
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Jason Kim
+Github: https://github.com/JasonKim0122
