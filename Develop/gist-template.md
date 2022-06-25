@@ -42,6 +42,12 @@ What is a quantifier? A quantifier in a regex is a component used to determine h
 
 ### OR Operator
 
+What is a OR Operator? A OR Operator is defined within a regex by a ' | '. It allows for a logical operator. In this case for matching an email we do not use a OR Operator. However if we were to take a look at this code below: 
+
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+
+This is an example of a Hex value and the OR Operator is being used therefore it means that the expression logic wants the search to find either hex codes that are 6 or 3 letters or digits. 
+
 ### Character Classes
 
 ### Flags
