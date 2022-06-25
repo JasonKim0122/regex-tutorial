@@ -64,6 +64,9 @@ m = which stands for a multi-line search
 
 ### Grouping and Capturing
 
+Grouping is defined by using '()' which group parts of the expressions together. In our matching an email regex: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ 
+We can see that there are 3 parts to this regex. Which are separated by the groupings that were provided. It can be classifed as our beginning email followed by the @ sign which is not affected since it is outside the parenthesis. Then the provider name followed by a dot then the last part of the grouping. 
+
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
